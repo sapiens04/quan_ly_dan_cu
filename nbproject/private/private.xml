@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/xampp/htdocs/quan_ly_dan_cu-main/src/View/ChooseFeeFrame.java</file>
+            <file>file:/C:/xampp/htdocs/quan_ly_dan_cu-main/src/View/MainMenu.java</file>
+            <file>file:/C:/xampp/htdocs/quan_ly_dan_cu-main/src/Model/khoan_thu.java</file>
+            <file>file:/C:/xampp/htdocs/quan_ly_dan_cu-main/src/Model/account.java</file>
+            <file>file:/C:/xampp/htdocs/quan_ly_dan_cu-main/src/Model/Nhankhau.java</file>
+            <file>file:/C:/xampp/htdocs/quan_ly_dan_cu-main/src/DAO/daoaccountImpl.java</file>
+            <file>file:/C:/xampp/htdocs/quan_ly_dan_cu-main/src/Login/MessageDialogHelper.java</file>
+            <file>file:/C:/xampp/htdocs/quan_ly_dan_cu-main/src/Login/Login.java</file>
+            <file>file:/C:/xampp/htdocs/quan_ly_dan_cu-main/src/View/ChooseNameFrame.java</file>
+            <file>file:/C:/xampp/htdocs/quan_ly_dan_cu-main/src/Login/DataValidator.java</file>
+            <file>file:/C:/xampp/htdocs/quan_ly_dan_cu-main/src/Model/Cachly.java</file>
+            <file>file:/C:/xampp/htdocs/quan_ly_dan_cu-main/src/Model/Khaibao.java</file>
+            <file>file:/C:/xampp/htdocs/quan_ly_dan_cu-main/src/DAO/KhaibaoDAO.java</file>
+            <file>file:/C:/xampp/htdocs/quan_ly_dan_cu-main/src/DAO/KhaibaoDAOImpl.java</file>
+            <file>file:/C:/xampp/htdocs/quan_ly_dan_cu-main/src/DAO/daoaccount.java</file>
+        </group>
+    </open-files>
+</project-private>
