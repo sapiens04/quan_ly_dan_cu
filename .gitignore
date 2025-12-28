@@ -1,0 +1,9 @@
+/build/
+/dist/
+/nbproject/
+*.class
+.history/
+/src/DAO/
+/src/Model/
+/src/View/
+/src/Icon/
