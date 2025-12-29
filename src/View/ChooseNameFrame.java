@@ -73,7 +73,7 @@ public class ChooseNameFrame extends javax.swing.JFrame {
 
             },
             new String [] {
-                "Full name", "ID Card"
+                "Họ và tên", "CMND/CCCD"
             }
         ) {
             boolean[] canEdit = new boolean [] {
@@ -91,9 +91,14 @@ public class ChooseNameFrame extends javax.swing.JFrame {
         });
         jScrollPane1.setViewportView(tblNk);
 
-        CbFindPo.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "ID Card", "Full name" }));
+        CbFindPo.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "CMND/CCCD", "Họ và tên" }));
+        CbFindPo.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                CbFindPoActionPerformed(evt);
+            }
+        });
 
-        btnFindPo.setText("Find");
+        btnFindPo.setText("Tìm");
         btnFindPo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnFindPoActionPerformed(evt);
@@ -165,6 +170,10 @@ public class ChooseNameFrame extends javax.swing.JFrame {
             showNk();
         }
     }//GEN-LAST:event_btnFindPoActionPerformed
+
+    private void CbFindPoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CbFindPoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_CbFindPoActionPerformed
 
     /**
      * @param args the command line arguments

@@ -26,13 +26,16 @@ public class ChooseFeeFrame extends javax.swing.JFrame {
     }
     
     public void showKt(){
-        khoanthuList=daokhoanthuImpl.findALL();
+        khoanthuList = daokhoanthuImpl.findALL();
         tableModel.setRowCount(0);
         for(khoan_thu a: khoanthuList){
+            // Xử lý logic hiển thị
+            String batBuocText = a.isBatbuoc() ? "Có" : "Không";
+        
             tableModel.addRow(new Object[]{
                 a.getTen_khoan_thu(),
                 a.getSotien(),
-                a.isBatbuoc()
+                batBuocText // <--- Thay biến boolean bằng chuỗi text vừa tạo
             });
         }
     }
@@ -69,7 +72,7 @@ public class ChooseFeeFrame extends javax.swing.JFrame {
 
             },
             new String [] {
-                "Fee Name", "Cost", "Compulsory ?"
+                "Phí", "Chi phí", "Bắt buộc?"
             }
         ) {
             boolean[] canEdit = new boolean [] {

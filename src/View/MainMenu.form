@@ -155,7 +155,7 @@
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                       <Image iconType="3" name="/Icon/outline_home_white_24dp.png"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="Main Menu"/>
+                    <Property name="text" type="java.lang.String" value="Menu ch&#xed;nh"/>
                   </Properties>
                   <Events>
                     <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnMenu"/>
@@ -194,7 +194,7 @@
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                       <Image iconType="3" name="/Icon/outline_supervised_user_circle_white_24dp.png"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="Quarter Manager"/>
+                    <Property name="text" type="java.lang.String" value="Qu&#x1ea3;n l&#xfd; d&#xe2;n c&#x1b0;"/>
                   </Properties>
                 </Component>
               </SubComponents>
@@ -233,7 +233,7 @@
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                       <Image iconType="3" name="/Icon/outline_monetization_on_white_24dp.png"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="Fee, Contributions"/>
+                    <Property name="text" type="java.lang.String" value="Ph&#xed; v&#xe0; &#x110;&#xf3;ng g&#xf3;p"/>
                     <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                       <Dimension value="[160, 48]"/>
                     </Property>
@@ -281,7 +281,7 @@
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                       <Image iconType="3" name="/Icon/outline_coronavirus_white_24dp.png"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="Disease"/>
+                    <Property name="text" type="java.lang.String" value="D&#x1ecb;ch b&#x1ec7;nh"/>
                   </Properties>
                   <Events>
                     <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="BtnCovidMouseClicked"/>
@@ -323,7 +323,7 @@
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                       <Image iconType="3" name="/Icon/outline_group_white_24dp.png"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="Population"/>
+                    <Property name="text" type="java.lang.String" value="Nh&#xe2;n kh&#x1ea9;u"/>
                   </Properties>
                   <Events>
                     <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnPopu"/>
@@ -392,7 +392,7 @@
                                   <Component id="jPanel22" max="32767" attributes="0"/>
                               </Group>
                           </Group>
-                          <EmptySpace pref="312" max="32767" attributes="0"/>
+                          <EmptySpace pref="329" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -408,7 +408,7 @@
                               <Component id="jPanel21" min="-2" max="-2" attributes="0"/>
                               <Component id="jPanel22" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace pref="46" max="32767" attributes="0"/>
+                          <EmptySpace pref="120" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -425,7 +425,7 @@
                     <DimensionLayout dim="0">
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="jLabel1" min="-2" pref="255" max="-2" attributes="0"/>
+                              <Component id="jLabel1" min="-2" pref="164" max="-2" attributes="0"/>
                               <EmptySpace max="32767" attributes="0"/>
                               <Component id="NuPopu" min="-2" pref="183" max="-2" attributes="0"/>
                           </Group>
@@ -458,7 +458,7 @@
                         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                           <Image iconType="3" name="/Icon/outline_people_white_36dp.png"/>
                         </Property>
-                        <Property name="text" type="java.lang.String" value="POPULATION"/>
+                        <Property name="text" type="java.lang.String" value="D&#xe2;n s&#x1ed1;"/>
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JLabel" name="NuPopu">
@@ -484,26 +484,21 @@
 
                   <Layout>
                     <DimensionLayout dim="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
+                              <Component id="jLabel29" min="-2" pref="67" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jLabel22" min="-2" pref="138" max="-2" attributes="0"/>
-                                  <Component id="jLabel29" alignment="1" min="-2" pref="72" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" attributes="0">
-                                      <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
-                                      <Component id="NuReFee" min="-2" pref="38" max="-2" attributes="0"/>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="jLabel31" min="-2" pref="93" max="-2" attributes="0"/>
-                                      <EmptySpace max="32767" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="1" attributes="0">
-                                      <EmptySpace max="32767" attributes="0"/>
-                                      <Component id="NuFee" min="-2" pref="178" max="-2" attributes="0"/>
-                                  </Group>
-                              </Group>
+                              <Component id="NuReFee" min="-2" pref="38" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabel31" min="-2" pref="93" max="-2" attributes="0"/>
+                              <EmptySpace pref="251" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                              <Component id="jLabel22" min="-2" pref="138" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="NuFee" min="-2" pref="178" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -540,7 +535,7 @@
                         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                           <Image iconType="3" name="/Icon/outline_monetization_on_white_24dp.png"/>
                         </Property>
-                        <Property name="text" type="java.lang.String" value="FEE"/>
+                        <Property name="text" type="java.lang.String" value="Ph&#xed;"/>
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JLabel" name="NuFee">
@@ -563,7 +558,7 @@
                         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                           <Color blue="ff" green="ff" red="ff" type="rgb"/>
                         </Property>
-                        <Property name="text" type="java.lang.String" value="IN THERE:"/>
+                        <Property name="text" type="java.lang.String" value="Bao g&#x1ed3;m:"/>
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JLabel" name="NuReFee">
@@ -585,7 +580,7 @@
                         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                           <Color blue="ff" green="ff" red="ff" type="rgb"/>
                         </Property>
-                        <Property name="text" type="java.lang.String" value="REQUIRED FEES"/>
+                        <Property name="text" type="java.lang.String" value="Ph&#xed; b&#x1eaf;t bu&#x1ed9;c"/>
                       </Properties>
                     </Component>
                   </SubComponents>
@@ -602,8 +597,8 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jLabel32" min="-2" pref="103" max="-2" attributes="0"/>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jLabel32" min="-2" pref="109" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
                               <Component id="NuDe" min="-2" pref="79" max="-2" attributes="0"/>
                               <EmptySpace pref="35" max="32767" attributes="0"/>
                           </Group>
@@ -634,7 +629,7 @@
                         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                           <Color blue="ff" green="ff" red="ff" type="rgb"/>
                         </Property>
-                        <Property name="text" type="java.lang.String" value="DECLARED"/>
+                        <Property name="text" type="java.lang.String" value="&#x110;&#xe3; khai b&#xe1;o:"/>
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JLabel" name="NuDe">
@@ -695,7 +690,7 @@
                         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                           <Color blue="ff" green="ff" red="ff" type="rgb"/>
                         </Property>
-                        <Property name="text" type="java.lang.String" value="ISOLATE"/>
+                        <Property name="text" type="java.lang.String" value="C&#xe1;ch ly:"/>
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JLabel" name="NuIso">
@@ -743,7 +738,7 @@
                   <Properties>
                     <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                       <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
-                        <TitledBorder title="Private Information">
+                        <TitledBorder title="Th&#xf4;ng tin c&#xe1; nh&#xe2;n">
                           <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
                             <BevelBorder/>
                           </Border>
@@ -760,44 +755,26 @@
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="jLabel8" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          <Component id="jLabel9" min="-2" pref="58" max="-2" attributes="0"/>
-                                          <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      </Group>
-                                      <EmptySpace min="21" pref="21" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                              <Component id="txtDoB" pref="159" max="32767" attributes="0"/>
-                                              <Component id="txtPoB" alignment="0" max="32767" attributes="0"/>
-                                          </Group>
-                                          <Component id="txtNa" min="-2" pref="159" max="-2" attributes="0"/>
-                                      </Group>
-                                      <EmptySpace max="32767" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Group type="103" groupAlignment="0" attributes="0">
                                           <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
                                           <Component id="jLabel10" alignment="0" min="-2" max="-2" attributes="0"/>
                                           <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
                                           <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
                                       </Group>
-                                      <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Group type="102" alignment="0" attributes="0">
-                                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <EmptySpace max="32767" attributes="0"/>
                                               <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
-                                              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                                              <EmptySpace min="41" pref="41" max="-2" attributes="0"/>
                                           </Group>
                                           <Group type="102" attributes="0">
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Component id="txtName" min="-2" pref="159" max="-2" attributes="0"/>
-                                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                                      <Component id="txtID" pref="159" max="32767" attributes="0"/>
-                                                      <Component id="txtEth" max="32767" attributes="0"/>
-                                                  </Group>
+                                                  <Component id="txtEth" min="-2" pref="159" max="-2" attributes="0"/>
+                                                  <Component id="txtID" min="-2" pref="159" max="-2" attributes="0"/>
                                                   <Component id="cbGen" alignment="0" min="-2" pref="93" max="-2" attributes="0"/>
+                                                  <Component id="txtName" alignment="0" min="-2" pref="159" max="-2" attributes="0"/>
                                               </Group>
-                                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                              <EmptySpace max="32767" attributes="0"/>
                                           </Group>
                                       </Group>
                                   </Group>
@@ -812,22 +789,43 @@
                                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
                                           <Group type="102" attributes="0">
-                                              <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Group type="102" attributes="0">
-                                                      <EmptySpace min="0" pref="18" max="32767" attributes="0"/>
-                                                      <Component id="btnEditPo" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                                                      <Component id="btnAddPo" min="-2" pref="70" max="-2" attributes="0"/>
-                                                  </Group>
-                                                  <Component id="txtDiachi" max="32767" attributes="0"/>
-                                              </Group>
+                                              <EmptySpace min="0" pref="18" max="32767" attributes="0"/>
+                                              <Component id="btnEditPo" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="btnAddPo" min="-2" pref="70" max="-2" attributes="0"/>
                                               <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
                                           </Group>
-                                          <Group type="102" attributes="0">
-                                              <Component id="txtPn" min="-2" pref="159" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                                  <Component id="txtDiachi" alignment="0" pref="159" max="32767" attributes="0"/>
+                                                  <Component id="txtPn" alignment="0" pref="159" max="32767" attributes="0"/>
+                                              </Group>
                                               <EmptySpace max="32767" attributes="0"/>
                                           </Group>
                                       </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="txtDoB" min="-2" pref="159" max="-2" attributes="0"/>
+                                          <Group type="102" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="jLabel8" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel9" min="-2" pref="58" max="-2" attributes="0"/>
+                                                  <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Group type="102" attributes="0">
+                                                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                                      <Component id="txtNa" min="-2" pref="159" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="1" attributes="0">
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="txtPoB" min="-2" pref="159" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace max="32767" attributes="0"/>
                                   </Group>
                               </Group>
                           </Group>
@@ -854,15 +852,15 @@
                                       </Group>
                                   </Group>
                               </Group>
-                              <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="1" attributes="0">
-                                  <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
-                                  <Component id="txtEth" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtEth" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="1" attributes="0">
-                                  <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
-                                  <Component id="txtID" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtID" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
@@ -889,7 +887,7 @@
                                   <Component id="jLabel13" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="txtDiachi" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <EmptySpace max="32767" attributes="0"/>
+                              <EmptySpace pref="104" max="32767" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Component id="btnAddPo" alignment="1" min="-2" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="3" attributes="0">
@@ -905,7 +903,7 @@
                   <SubComponents>
                     <Component class="javax.swing.JLabel" name="jLabel4">
                       <Properties>
-                        <Property name="text" type="java.lang.String" value="Full name"/>
+                        <Property name="text" type="java.lang.String" value="H&#x1ecd; v&#xe0; t&#xea;n"/>
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JTextField" name="txtName">
@@ -915,20 +913,23 @@
                     </Component>
                     <Component class="javax.swing.JLabel" name="jLabel5">
                       <Properties>
-                        <Property name="text" type="java.lang.String" value="ID Card"/>
+                        <Property name="text" type="java.lang.String" value="CMND/CCCD"/>
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JLabel" name="jLabel6">
                       <Properties>
-                        <Property name="text" type="java.lang.String" value="Date of Birth"/>
+                        <Property name="text" type="java.lang.String" value="Ng&#xe0;y sinh"/>
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JLabel" name="jLabel7">
                       <Properties>
-                        <Property name="text" type="java.lang.String" value="Gender"/>
+                        <Property name="text" type="java.lang.String" value="Gi&#x1edb;i t&#xed;nh"/>
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JTextField" name="txtDoB">
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtDoBActionPerformed"/>
+                      </Events>
                     </Component>
                     <Component class="javax.swing.JTextField" name="txtNa">
                     </Component>
@@ -938,15 +939,15 @@
                     </Component>
                     <Component class="javax.swing.JLabel" name="jLabel8">
                       <Properties>
-                        <Property name="text" type="java.lang.String" value="Place of Birth"/>
+                        <Property name="text" type="java.lang.String" value="N&#x1a1;i sinh"/>
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JComboBox" name="cbGen">
                       <Properties>
                         <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                           <StringArray count="2">
-                            <StringItem index="0" value="Male"/>
-                            <StringItem index="1" value="Female"/>
+                            <StringItem index="0" value="Nam"/>
+                            <StringItem index="1" value="N&#x1eef;"/>
                           </StringArray>
                         </Property>
                       </Properties>
@@ -956,19 +957,19 @@
                     </Component>
                     <Component class="javax.swing.JLabel" name="jLabel9">
                       <Properties>
-                        <Property name="text" type="java.lang.String" value="National"/>
+                        <Property name="text" type="java.lang.String" value="Qu&#x1ed1;c t&#x1ecb;ch"/>
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JLabel" name="jLabel10">
                       <Properties>
-                        <Property name="text" type="java.lang.String" value="Ethnic"/>
+                        <Property name="text" type="java.lang.String" value="D&#xe2;n t&#x1ed9;c"/>
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JTextField" name="txtEth">
                     </Component>
                     <Component class="javax.swing.JLabel" name="jLabel11">
                       <Properties>
-                        <Property name="text" type="java.lang.String" value="Phone Number"/>
+                        <Property name="text" type="java.lang.String" value="S&#x1ed1; &#x111;i&#x1ec7;n tho&#x1ea1;i"/>
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JTextField" name="txtPn">
@@ -977,7 +978,7 @@
                     </Component>
                     <Component class="javax.swing.JButton" name="btnEditPo">
                       <Properties>
-                        <Property name="text" type="java.lang.String" value="Edit"/>
+                        <Property name="text" type="java.lang.String" value="S&#x1eed;a"/>
                       </Properties>
                       <Events>
                         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEditPoActionPerformed"/>
@@ -985,7 +986,7 @@
                     </Component>
                     <Component class="javax.swing.JButton" name="btnDeletePo">
                       <Properties>
-                        <Property name="text" type="java.lang.String" value="Delete"/>
+                        <Property name="text" type="java.lang.String" value="X&#xf3;a"/>
                       </Properties>
                       <Events>
                         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDeletePoActionPerformed"/>
@@ -993,7 +994,7 @@
                     </Component>
                     <Component class="javax.swing.JButton" name="btnAddPo">
                       <Properties>
-                        <Property name="text" type="java.lang.String" value="Add"/>
+                        <Property name="text" type="java.lang.String" value="Th&#xea;m"/>
                       </Properties>
                       <Events>
                         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAddPoActionPerformed"/>
@@ -1001,7 +1002,7 @@
                     </Component>
                     <Component class="javax.swing.JLabel" name="jLabel13">
                       <Properties>
-                        <Property name="text" type="java.lang.String" value="Address"/>
+                        <Property name="text" type="java.lang.String" value="&#x110;&#x1ecb;a ch&#x1ec9;"/>
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JTextField" name="txtDiachi">
@@ -1052,11 +1053,11 @@
                           <Properties>
                             <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
                               <Table columnCount="5" rowCount="0">
-                                <Column editable="false" title="Full name" type="java.lang.Object"/>
-                                <Column editable="false" title="ID Card" type="java.lang.Object"/>
-                                <Column editable="false" title="Date of Birth" type="java.lang.Object"/>
-                                <Column editable="false" title="Gender" type="java.lang.Object"/>
-                                <Column editable="false" title="Phone Number" type="java.lang.Object"/>
+                                <Column editable="false" title="H&#x1ecd; v&#xe0; t&#xea;n" type="java.lang.Object"/>
+                                <Column editable="false" title="CMND/CCCD" type="java.lang.Object"/>
+                                <Column editable="false" title="Ng&#xe0;y sinh" type="java.lang.Object"/>
+                                <Column editable="false" title="Gi&#x1edb;i t&#xed;nh" type="java.lang.Object"/>
+                                <Column editable="false" title="S&#x1ed1; &#x111;i&#x1ec7;n tho&#x1ea1;i" type="java.lang.Object"/>
                               </Table>
                             </Property>
                             <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
@@ -1107,8 +1108,8 @@
                       <Properties>
                         <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                           <StringArray count="2">
-                            <StringItem index="0" value="ID Card"/>
-                            <StringItem index="1" value="Full name"/>
+                            <StringItem index="0" value="CMND/CCCD"/>
+                            <StringItem index="1" value="H&#x1ecd; v&#xe0; t&#xea;n"/>
                           </StringArray>
                         </Property>
                       </Properties>
@@ -1118,7 +1119,7 @@
                     </Component>
                     <Component class="javax.swing.JButton" name="btnFindPo">
                       <Properties>
-                        <Property name="text" type="java.lang.String" value="Find"/>
+                        <Property name="text" type="java.lang.String" value="T&#xec;m"/>
                       </Properties>
                       <Events>
                         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFindPoActionPerformed"/>
@@ -1168,8 +1169,8 @@
                       </Properties>
                       <Constraints>
                         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-                          <JTabbedPaneConstraints tabName="Fee">
-                            <Property name="tabTitle" type="java.lang.String" value="Fee"/>
+                          <JTabbedPaneConstraints tabName="Ph&#xed;">
+                            <Property name="tabTitle" type="java.lang.String" value="Ph&#xed;"/>
                           </JTabbedPaneConstraints>
                         </Constraint>
                       </Constraints>
@@ -1222,11 +1223,11 @@
                               <Properties>
                                 <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
                                   <Table columnCount="5" rowCount="0">
-                                    <Column editable="false" title="ID Card" type="java.lang.Object"/>
-                                    <Column editable="false" title="Full name" type="java.lang.Object"/>
-                                    <Column editable="false" title="Fee" type="java.lang.Object"/>
-                                    <Column editable="false" title="Cost" type="java.lang.Object"/>
-                                    <Column editable="false" title="Date" type="java.lang.Object"/>
+                                    <Column editable="false" title="CMND/CCCD" type="java.lang.Object"/>
+                                    <Column editable="false" title="H&#x1ecd; v&#xe0; t&#xea;n" type="java.lang.Object"/>
+                                    <Column editable="false" title="Ph&#xed;" type="java.lang.Object"/>
+                                    <Column editable="false" title="Chi ph&#xed;" type="java.lang.Object"/>
+                                    <Column editable="false" title="Ng&#xe0;y" type="java.lang.Object"/>
                                   </Table>
                                 </Property>
                                 <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
@@ -1274,9 +1275,9 @@
                           <Properties>
                             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                               <StringArray count="3">
-                                <StringItem index="0" value="Name"/>
-                                <StringItem index="1" value="Fee"/>
-                                <StringItem index="2" value="ID Card"/>
+                                <StringItem index="0" value="T&#xea;n"/>
+                                <StringItem index="1" value="Ph&#xed;"/>
+                                <StringItem index="2" value="CMND/CCCD"/>
                               </StringArray>
                             </Property>
                           </Properties>
@@ -1286,7 +1287,7 @@
                         </Component>
                         <Component class="javax.swing.JButton" name="btnFindFee">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="Find"/>
+                            <Property name="text" type="java.lang.String" value="T&#xec;m"/>
                           </Properties>
                           <Events>
                             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFindFeeActionPerformed"/>
@@ -1294,7 +1295,7 @@
                         </Component>
                         <Component class="javax.swing.JButton" name="ReFee">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="Required Fee"/>
+                            <Property name="text" type="java.lang.String" value="Ph&#xed; b&#x1eaf;t bu&#x1ed9;c"/>
                           </Properties>
                           <Events>
                             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ReFeeActionPerformed"/>
@@ -1302,7 +1303,7 @@
                         </Component>
                         <Component class="javax.swing.JButton" name="resetTblFee">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="Reset"/>
+                            <Property name="text" type="java.lang.String" value="&#x110;&#x1eb7;t l&#x1ea1;i"/>
                           </Properties>
                           <Events>
                             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="resetTblFeeActionPerformed"/>
@@ -1318,8 +1319,8 @@
                       </Properties>
                       <Constraints>
                         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-                          <JTabbedPaneConstraints tabName="Fee Information">
-                            <Property name="tabTitle" type="java.lang.String" value="Fee Information"/>
+                          <JTabbedPaneConstraints tabName="Th&#xf4;ng tin ph&#xed;">
+                            <Property name="tabTitle" type="java.lang.String" value="Th&#xf4;ng tin ph&#xed;"/>
                           </JTabbedPaneConstraints>
                         </Constraint>
                       </Constraints>
@@ -1402,9 +1403,9 @@
                               <Properties>
                                 <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
                                   <Table columnCount="3" rowCount="0">
-                                    <Column editable="false" title="Fee Name" type="java.lang.Object"/>
-                                    <Column editable="true" title="Cost" type="java.lang.Object"/>
-                                    <Column editable="false" title="Compulsory ?" type="java.lang.Boolean"/>
+                                    <Column editable="false" title="T&#xea;n Ph&#xed;" type="java.lang.Object"/>
+                                    <Column editable="true" title="Chi ph&#xed;" type="java.lang.Object"/>
+                                    <Column editable="false" title="B&#x1eaf;t bu&#x1ed9;c ?" type="java.lang.Boolean"/>
                                   </Table>
                                 </Property>
                                 <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
@@ -1438,26 +1439,26 @@
                         </Container>
                         <Component class="javax.swing.JLabel" name="jLabel14">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="Fee name"/>
+                            <Property name="text" type="java.lang.String" value="T&#xea;n Ph&#xed;"/>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JTextField" name="txtNameFeeinfor">
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel15">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="Cost"/>
+                            <Property name="text" type="java.lang.String" value="Chi ph&#xed;"/>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JTextField" name="txtCost">
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="Cbcom">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="Compulsory"/>
+                            <Property name="text" type="java.lang.String" value="B&#x1eaf;t bu&#x1ed9;c"/>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JButton" name="btnAddFeeInfor">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="Add"/>
+                            <Property name="text" type="java.lang.String" value="Th&#xea;m"/>
                           </Properties>
                           <Events>
                             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAddFeeInforActionPerformed"/>
@@ -1465,7 +1466,7 @@
                         </Component>
                         <Component class="javax.swing.JButton" name="btnEditFeeInfor">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="Edit"/>
+                            <Property name="text" type="java.lang.String" value="S&#x1eed;a"/>
                           </Properties>
                           <Events>
                             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEditFeeInforActionPerformed"/>
@@ -1473,7 +1474,7 @@
                         </Component>
                         <Component class="javax.swing.JButton" name="btnDeleteFeeInfor">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="Delete"/>
+                            <Property name="text" type="java.lang.String" value="X&#xf3;a"/>
                           </Properties>
                           <Events>
                             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDeleteFeeInforActionPerformed"/>
@@ -1543,12 +1544,12 @@
                   <SubComponents>
                     <Component class="javax.swing.JLabel" name="jLabel16">
                       <Properties>
-                        <Property name="text" type="java.lang.String" value="Full name"/>
+                        <Property name="text" type="java.lang.String" value="H&#x1ecd; v&#xe0; t&#xea;n"/>
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JLabel" name="jLabel17">
                       <Properties>
-                        <Property name="text" type="java.lang.String" value="Fee"/>
+                        <Property name="text" type="java.lang.String" value="Ph&#xed;"/>
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JLabel" name="txtFee">
@@ -1568,7 +1569,7 @@
                     </Component>
                     <Component class="javax.swing.JButton" name="btnDeleteFee">
                       <Properties>
-                        <Property name="text" type="java.lang.String" value="Delete"/>
+                        <Property name="text" type="java.lang.String" value="X&#xf3;a"/>
                       </Properties>
                       <Events>
                         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDeleteFeeActionPerformed"/>
@@ -1576,7 +1577,7 @@
                     </Component>
                     <Component class="javax.swing.JButton" name="btnAddFee">
                       <Properties>
-                        <Property name="text" type="java.lang.String" value="Add"/>
+                        <Property name="text" type="java.lang.String" value="Th&#xea;m"/>
                       </Properties>
                       <Events>
                         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAddFeeActionPerformed"/>
@@ -1673,12 +1674,12 @@
                           <Properties>
                             <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
                               <Table columnCount="6" rowCount="0">
-                                <Column editable="false" title="Full name" type="java.lang.Object"/>
-                                <Column editable="false" title="ID Card" type="java.lang.Object"/>
-                                <Column editable="false" title="Date of Birth" type="java.lang.Object"/>
-                                <Column editable="false" title="Gender" type="java.lang.Object"/>
-                                <Column editable="false" title="Declaration" type="java.lang.Boolean"/>
-                                <Column editable="false" title="Isolation" type="java.lang.Boolean"/>
+                                <Column editable="false" title="H&#x1ecd; v&#xe0; t&#xea;n" type="java.lang.Object"/>
+                                <Column editable="false" title="CMND/CCCD" type="java.lang.Object"/>
+                                <Column editable="false" title="Ng&#xe0;y sinh" type="java.lang.Object"/>
+                                <Column editable="false" title="Gi&#x1edb;i t&#xed;nh" type="java.lang.Object"/>
+                                <Column editable="false" title="Khai b&#xe1;o" type="java.lang.Boolean"/>
+                                <Column editable="false" title="C&#xe1;ch ly" type="java.lang.Boolean"/>
                               </Table>
                             </Property>
                             <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
@@ -1730,7 +1731,7 @@
                     </Container>
                     <Component class="javax.swing.JButton" name="btnFindCv">
                       <Properties>
-                        <Property name="text" type="java.lang.String" value="Find"/>
+                        <Property name="text" type="java.lang.String" value="T&#xec;m"/>
                       </Properties>
                       <Events>
                         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFindCvActionPerformed"/>
@@ -1740,8 +1741,8 @@
                       <Properties>
                         <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                           <StringArray count="2">
-                            <StringItem index="0" value="ID Card"/>
-                            <StringItem index="1" value="Full name"/>
+                            <StringItem index="0" value="CMND/CCCD"/>
+                            <StringItem index="1" value="H&#x1ecd; v&#xe0; t&#xea;n"/>
                           </StringArray>
                         </Property>
                       </Properties>
@@ -1760,8 +1761,8 @@
                     <Container class="javax.swing.JPanel" name="jPanel15">
                       <Constraints>
                         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-                          <JTabbedPaneConstraints tabName="Medical Declaration">
-                            <Property name="tabTitle" type="java.lang.String" value="Medical Declaration"/>
+                          <JTabbedPaneConstraints tabName="Khai b&#xe1;o y t&#x1ebf;">
+                            <Property name="tabTitle" type="java.lang.String" value="Khai b&#xe1;o y t&#x1ebf;"/>
                           </JTabbedPaneConstraints>
                         </Constraint>
                       </Constraints>
@@ -1786,7 +1787,7 @@
                           <Properties>
                             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                               <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
-                                <TitledBorder title="Information for Medical Declaration"/>
+                                <TitledBorder title="Th&#xf4;ng tin khai b&#xe1;o y t&#x1ebf;"/>
                               </Border>
                             </Property>
                           </Properties>
@@ -1804,7 +1805,7 @@
                                                       <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                                   </Group>
                                                   <Group type="102" alignment="1" attributes="0">
-                                                      <EmptySpace min="0" pref="164" max="32767" attributes="0"/>
+                                                      <EmptySpace min="0" pref="180" max="32767" attributes="0"/>
                                                       <Component id="jLabel24" min="-2" max="-2" attributes="0"/>
                                                       <EmptySpace type="separate" max="-2" attributes="0"/>
                                                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
@@ -1869,14 +1870,14 @@
                           <SubComponents>
                             <Component class="javax.swing.JLabel" name="jLabel18">
                               <Properties>
-                                <Property name="text" type="java.lang.String" value="Unusual health signs:"/>
+                                <Property name="text" type="java.lang.String" value="D&#x1ea5;u hi&#x1ec7;u b&#x1ea5;t th&#x1b0;&#x1edd;ng:"/>
                               </Properties>
                             </Component>
                             <Component class="javax.swing.JTextField" name="txtbieu_hienpanel">
                             </Component>
                             <Component class="javax.swing.JLabel" name="jLabel19">
                               <Properties>
-                                <Property name="text" type="java.lang.String" value="High-risk area(s) visited:"/>
+                                <Property name="text" type="java.lang.String" value="Khu v&#x1ef1;c c&#xf3; d&#x1ecb;ch &#x111;&#xe3; &#x111;i qua:"/>
                               </Properties>
                             </Component>
                             <Component class="javax.swing.JTextField" name="txtVung_dichpanel">
@@ -1892,12 +1893,12 @@
                             </Component>
                             <Component class="javax.swing.JLabel" name="jLabel24">
                               <Properties>
-                                <Property name="text" type="java.lang.String" value="Date:"/>
+                                <Property name="text" type="java.lang.String" value="Ng&#xe0;y:"/>
                               </Properties>
                             </Component>
                             <Component class="javax.swing.JButton" name="btnDeleteKbpanel">
                               <Properties>
-                                <Property name="text" type="java.lang.String" value="Delete"/>
+                                <Property name="text" type="java.lang.String" value="X&#xf3;a"/>
                               </Properties>
                               <Events>
                                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDeleteKbpanelActionPerformed"/>
@@ -1905,7 +1906,7 @@
                             </Component>
                             <Component class="javax.swing.JButton" name="btnSaveKbpanel">
                               <Properties>
-                                <Property name="text" type="java.lang.String" value="Save"/>
+                                <Property name="text" type="java.lang.String" value="L&#x1b0;u"/>
                               </Properties>
                               <Events>
                                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSaveKbpanelActionPerformed"/>
@@ -1918,8 +1919,8 @@
                     <Container class="javax.swing.JPanel" name="jPanel16">
                       <Constraints>
                         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-                          <JTabbedPaneConstraints tabName="Medical Isolation">
-                            <Property name="tabTitle" type="java.lang.String" value="Medical Isolation"/>
+                          <JTabbedPaneConstraints tabName="C&#xe1;ch ly">
+                            <Property name="tabTitle" type="java.lang.String" value="C&#xe1;ch ly"/>
                           </JTabbedPaneConstraints>
                         </Constraint>
                       </Constraints>
@@ -1966,7 +1967,7 @@
                           <Properties>
                             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                               <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
-                                <TitledBorder title="Information for Medical Isolation"/>
+                                <TitledBorder title="Th&#xf4;ng tin c&#xe1;ch ly y t&#x1ebf;"/>
                               </Border>
                             </Property>
                           </Properties>
@@ -2005,12 +2006,12 @@
                           <SubComponents>
                             <Component class="javax.swing.JLabel" name="jLabel27">
                               <Properties>
-                                <Property name="text" type="java.lang.String" value="Isolation level:"/>
+                                <Property name="text" type="java.lang.String" value="M&#x1ee9;c &#x111;&#x1ed9; c&#xe1;ch ly:"/>
                               </Properties>
                             </Component>
                             <Component class="javax.swing.JLabel" name="jLabel28">
                               <Properties>
-                                <Property name="text" type="java.lang.String" value="Start date:"/>
+                                <Property name="text" type="java.lang.String" value="Ng&#xe0;y b&#x1eaf;t &#x111;&#x1ea7;u:"/>
                               </Properties>
                             </Component>
                             <Component class="javax.swing.JTextField" name="txtdateClpanel">
@@ -2023,7 +2024,7 @@
                           <Properties>
                             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                               <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
-                                <TitledBorder title="Test Results"/>
+                                <TitledBorder title="K&#x1ebf;t qu&#x1ea3; x&#xe9;t nghi&#x1ec7;m"/>
                               </Border>
                             </Property>
                           </Properties>
@@ -2075,19 +2076,19 @@
                           <SubComponents>
                             <Component class="javax.swing.JLabel" name="jLabel25">
                               <Properties>
-                                <Property name="text" type="java.lang.String" value="Test Method:"/>
+                                <Property name="text" type="java.lang.String" value="Ph&#x1b0;&#x1a1;ng ph&#xe1;p:"/>
                               </Properties>
                             </Component>
                             <Component class="javax.swing.JTextField" name="txtkieutestpanel">
                             </Component>
                             <Component class="javax.swing.JLabel" name="jLabel26">
                               <Properties>
-                                <Property name="text" type="java.lang.String" value="Result:"/>
+                                <Property name="text" type="java.lang.String" value="K&#x1ebf;t qu&#x1ea3;"/>
                               </Properties>
                             </Component>
                             <Component class="javax.swing.JLabel" name="jLabel20">
                               <Properties>
-                                <Property name="text" type="java.lang.String" value="Date"/>
+                                <Property name="text" type="java.lang.String" value="Ng&#xe0;y:"/>
                               </Properties>
                             </Component>
                             <Component class="javax.swing.JTextField" name="txtDateTest">
@@ -2096,11 +2097,14 @@
                               <Properties>
                                 <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                                   <StringArray count="2">
-                                    <StringItem index="0" value="Negative"/>
-                                    <StringItem index="1" value="Positive"/>
+                                    <StringItem index="0" value="&#xc2;m t&#xed;nh"/>
+                                    <StringItem index="1" value="D&#x1b0;&#x1a1;ng t&#xed;nh"/>
                                   </StringArray>
                                 </Property>
                               </Properties>
+                              <Events>
+                                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CbKetquaActionPerformed"/>
+                              </Events>
                               <AuxValues>
                                 <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
                               </AuxValues>
@@ -2111,7 +2115,7 @@
                           <Properties>
                             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                               <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
-                                <TitledBorder title="Infectious Disease Test History"/>
+                                <TitledBorder title="L&#x1ecb;ch s&#x1eed; x&#xe9;t nghi&#x1ec7;m b&#x1ec7;nh truy&#x1ec1;n nhi&#x1ec5;m"/>
                               </Border>
                             </Property>
                           </Properties>
@@ -2140,10 +2144,10 @@
                                   <Properties>
                                     <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
                                       <Table columnCount="4" rowCount="0">
-                                        <Column editable="false" title="ID" type="java.lang.Object"/>
-                                        <Column editable="false" title="Test Method" type="java.lang.Object"/>
-                                        <Column editable="false" title="Result" type="java.lang.Object"/>
-                                        <Column editable="false" title="Date" type="java.lang.Object"/>
+                                        <Column editable="false" title="STT" type="java.lang.Object"/>
+                                        <Column editable="false" title="Ph&#x1b0;&#x1a1;ng ph&#xe1;p" type="java.lang.Object"/>
+                                        <Column editable="false" title="K&#x1ebf;t qu&#x1ea3;" type="java.lang.Object"/>
+                                        <Column editable="false" title="Ng&#xe0;y" type="java.lang.Object"/>
                                       </Table>
                                     </Property>
                                     <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
@@ -2163,7 +2167,7 @@
                         </Container>
                         <Component class="javax.swing.JButton" name="btnDeleteCl">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="Delete"/>
+                            <Property name="text" type="java.lang.String" value="X&#xf3;a"/>
                           </Properties>
                           <Events>
                             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDeleteClActionPerformed"/>
@@ -2171,7 +2175,7 @@
                         </Component>
                         <Component class="javax.swing.JButton" name="btnEditCl">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="Edit"/>
+                            <Property name="text" type="java.lang.String" value="S&#x1eed;a"/>
                           </Properties>
                           <Events>
                             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEditClActionPerformed"/>
@@ -2179,7 +2183,7 @@
                         </Component>
                         <Component class="javax.swing.JButton" name="btnAddCl">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="Add"/>
+                            <Property name="text" type="java.lang.String" value="Th&#xea;m"/>
                           </Properties>
                           <Events>
                             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAddClActionPerformed"/>
