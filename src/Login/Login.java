@@ -47,7 +47,7 @@ public class Login extends javax.swing.JFrame {
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel3.setText("Passwork");
+        jLabel3.setText("Password");
 
         btnLogin.setBackground(new java.awt.Color(255, 255, 255));
         btnLogin.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
@@ -148,7 +148,7 @@ public class Login extends javax.swing.JFrame {
     private void btnLoginMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnLoginMouseClicked
         StringBuilder sb=new StringBuilder();
         DataValidator.validateEmty(txtlusername, sb, "Please enter Username!");
-        DataValidator.validateEmty(txtpassword, sb, "Please enter Passwork");
+        DataValidator.validateEmty(txtpassword, sb, "Please enter Password!");
         if(sb.length()>0){
             MessageDialogHelper.showErrorDialog(this,"Error",sb.toString());
             return;
@@ -157,7 +157,7 @@ public class Login extends javax.swing.JFrame {
         try {
             account acc=dao.login(txtlusername.getText(), new String(txtpassword.getPassword()));
             if(acc==null){
-                MessageDialogHelper.showErrorDialog(this,"About", "Username or Passwork is incorrect.");
+                MessageDialogHelper.showErrorDialog(this,"About", "Username or Password is incorrect.");
             }  else {
                 this.dispose();
                 MainMenu x= new MainMenu();
