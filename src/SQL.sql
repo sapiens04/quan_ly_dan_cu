@@ -42,11 +42,11 @@ CREATE TABLE `cachly` (
 --
 
 INSERT INTO `cachly` (`ID`, `SoCMT`, `tgian_bat_dau`, `muc_do_cach_ly`, `hinh_thuc_test`, `thoi_gian_test`, `Ket_qua_test`) VALUES
-(1, '20207643', '', '0', 'xét nghiệm máu', '20/12', 'Negative'),
-(2, '20215516', '21/12', '1', 'xét nghiệm máu', '21/12', 'Positive'),
-(3, '20225291', '', '0', 'xét nghiệm máu', '18/12', 'Negative'),
-(4, '20207643', '25/12', '2', 'xét nghiệm máu', '25/12', 'Positive'),
-(5, '20207662', '25/12', '2', 'xét nghiệm máu', '25/12', 'Positive');
+(1, '20207643', '', '0', 'xét nghiệm máu', '20/12', 'Âm tính'),
+(2, '20215516', '21/12', '1', 'xét nghiệm máu', '21/12', 'Dương tính'),
+(3, '20225291', '', '0', 'xét nghiệm máu', '18/12', 'Âm tính'),
+(4, '20207643', '25/12', '2', 'xét nghiệm máu', '25/12', 'Dương tính'),
+(5, '20207662', '25/12', '2', 'xét nghiệm máu', '25/12', 'Dương tính');
 
 -- --------------------------------------------------------
 
@@ -88,10 +88,10 @@ CREATE TABLE `khoan_thu` (
 --
 
 INSERT INTO `khoan_thu` (`ID_khoan_thu`, `ten_khoan_thu`, `Sotien`, `Batbuoc`) VALUES
-(1, 'Fee1', 100000, 1),
-(2, 'Fee2', 50000, 0),
-(3, 'Fee3', 25000, 0),
-(4, 'Fee4 ', 15000, 0);
+(1, 'Phí1', 100000, 1),
+(2, 'Phí2', 50000, 0),
+(3, 'Phí3', 25000, 0),
+(4, 'Phí4 ', 15000, 0);
 
 -- --------------------------------------------------------
 
@@ -118,12 +118,12 @@ CREATE TABLE `nhankhau` (
 --
 
 INSERT INTO `nhankhau` (`SoCMT`, `Ho_ten`, `namSinh`, `gioiTinh`, `noiSinh`, `nguyenQuan`, `danToc`, `quocTich`, `noiThuongTru`, `diaChiHienNay`, `SDT`) VALUES
-('20207643', 'Trần Quốc Duy', '2002', 'Male', 'Thanh Hóa', NULL, 'Kinh', 'Việt Nam', NULL, 'Hà Nội', '0222222222'),
-('20207662', 'Lê Văn Duẩn', '2002', 'Male', 'Nam Định', NULL, 'Kinh', 'Việt Nam', NULL, 'Hà Nội', '42131414'),
-('20215516', 'Đặng Thế Vinh', '2003', 'Male', 'Hà Nội', NULL, 'Kinh', 'Việt Nam', NULL, 'Hà Nội', '011111111'),
-('20225291', 'Nguyễn Hữu Dũng', '2004', 'Male', 'Hà Nội', NULL, 'Kinh', 'Việt Nam', NULL, 'Hà Nội', '03333333'),
-('20225349', 'Trương Huy Khuê', '2004', 'Male', 'Thái Bình', NULL, 'Kinh', 'Viet Nam', NULL, 'Hà Nội', '01111111'),
-('202400131', 'Somphet Kousalivong', '2006', 'Male', 'Unknown', NULL, 'Kinh', 'Việt Nam', NULL, 'Hà Nội', '011111111');
+('20207643', 'Trần Quốc Duy', '2002', 'Nam', 'Thanh Hóa', NULL, 'Kinh', 'Việt Nam', NULL, 'Hà Nội', '0222222222'),
+('20207662', 'Lê Văn Duẩn', '2002', 'Nam', 'Nam Định', NULL, 'Kinh', 'Việt Nam', NULL, 'Hà Nội', '42131414'),
+('20215516', 'Đặng Thế Vinh', '2003', 'Nam', 'Hà Nội', NULL, 'Kinh', 'Việt Nam', NULL, 'Hà Nội', '011111111'),
+('20225291', 'Nguyễn Hữu Dũng', '2004', 'Nam', 'Hà Nội', NULL, 'Kinh', 'Việt Nam', NULL, 'Hà Nội', '03333333'),
+('20225349', 'Trương Huy Khuê', '2004', 'Nam', 'Thái Bình', NULL, 'Kinh', 'Viet Nam', NULL, 'Hà Nội', '01111111'),
+('202400131', 'Somphet Kousalivong', '2006', 'Nam', 'Unknown', NULL, 'Kinh', 'Việt Nam', NULL, 'Hà Nội', '011111111');
 
 -- --------------------------------------------------------
 
